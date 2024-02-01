@@ -6,7 +6,7 @@ interface  Amphibious {
 
 // Interface for air vehicles (assuming it's already defined elsewhere)
 interface AirVehicle {
-    // ... methods for air vehicles ...
+    // methods for air vehicles 
 }
 
 // Abstract class for electric vehicles
@@ -18,15 +18,15 @@ abstract class ElectricVehicle {
 class AmphibiousPlane implements Amphibious, AirVehicle {
     @Override
     public void dock() {
-        System.out.println("Docking amphibious vehicle...");
+        System.out.println("Docking amphibious vehicle");
     }
 
     @Override
     public void launch() {
-        System.out.println("Launching amphibious vehicle...");
+        System.out.println("Launching amphibious vehicle");
     }
 
-    // ... methods for air vehicles ...
+    // methods for air vehicles 
 }
 
 // Class for electric cars
